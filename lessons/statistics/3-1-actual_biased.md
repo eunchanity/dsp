@@ -3,7 +3,7 @@
 resp = nsfg.ReadFemResp()<br/>pmf = thinkstats2.Pmf(resp.numkdhh, label='actual')<br/>thinkplot.Pmf(pmf)<br/>thinkplot.Config(xlabel='Household Size', ylabel='PMF')
 
 def BiasPmf(pmf, label):<br/>
-	new_pmf = pmf.Copy(label=label)
+ 	new pmf = pmf.Copy(label=label)
 
  	for x, p in pmf.Items():
    		new_pmf.Mult(x, x)
@@ -14,7 +14,9 @@ def BiasPmf(pmf, label):<br/>
 biased_pmf = BiasPmf(pmf, label='biased')<br/>thinkplot.PrePlot(2)<br/>thinkplot.Pmfs([pmf, biased_pmf])<br/>thinkplot.Config(xlabel='Household Size', ylabel='PMF')
 
 print('Actual mean', pmf.Mean())<br/>
+	
 	Actual mean 1.024205155043831
 
 print('Observed mean', biased_pmf.Mean())<br/>
+	
 	Observed mean 2.403679100664282
