@@ -2,4 +2,4 @@
 
 >> CohenEffectSize(firsts.totalwgt_lb,others.totalwgt_lb) = -0.088672927072602. This indicates that first babies are lighter than others.
 
->> CohenEffectSize(firsts.prglngth, others.prglngth) = 0.028879044654449883. This indicates that first babies have longer pregnancies.
+>> CohenEffectSize(firsts.prglngth, others.prglngth) = 0.028879044654449883. This indicates that first babies have longer pregnancies than others.
