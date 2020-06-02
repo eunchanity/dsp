@@ -95,8 +95,8 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 How do frequentist and Bayesian statistics compare?
 
 >> They differ on the definition of probability: <br/>
->>	Frequentist: probability is related to the frequencies of repeated events <br/>
->>	Bayesian: probability is related to our own certainity/uncertainty of events
+>>	Frequentist: probability is related to the frequencies of repeated events. Frequentists think of it as a fixed model with varying data. <br/>
+>>	Bayesian: probability is related to our own certainity/uncertainty of events. Bayesians think of it as a fixed data with varying models.
 
 ---
 
